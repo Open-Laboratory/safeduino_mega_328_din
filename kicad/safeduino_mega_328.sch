@@ -14,7 +14,7 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "SafeDuino MEGA 328"
-Date "10 mar 2016"
+Date "13 apr 2016"
 Rev "1.02"
 Comp ""
 Comment1 ""
@@ -22,35 +22,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 13500 9700 2    60   ~ 0
-MPU_VCC
-Wire Wire Line
-	13050 9700 13500 9700
-$Comp
-L PIN_M_1 XP?
-U 1 1 4E6101A3
-P 13050 9700
-AR Path="/4E2EC900" Ref="XP?"  Part="1" 
-AR Path="/4E2ECA5D" Ref="XP?"  Part="1" 
-AR Path="/4E5E31A9" Ref="XP?"  Part="1" 
-AR Path="/4E6101A3" Ref="XP40"  Part="1" 
-F 0 "XP40" H 13200 9800 50  0000 L BNN
-F 1 "~" H 13100 9800 50  0000 L BNN
-F 2 "~" H 13500 9850 50  0001 C CNN
-F 3 "" H 13050 9700 60  0001 C CNN
-	1    13050 9700
-	-1   0    0    -1  
-$EndComp
-Text Notes 12400 9750 0    60   ~ 0
-+5V
-Wire Wire Line
-	14050 9350 14050 9250
-Wire Wire Line
-	13050 9450 13300 9450
-Wire Wire Line
-	4150 3400 4150 4150
-Wire Wire Line
-	4150 3400 3700 3400
 Wire Wire Line
 	13450 1450 13000 1450
 Wire Wire Line
@@ -104,25 +75,6 @@ Wire Wire Line
 Wire Wire Line
 	13450 2250 13000 2250
 Wire Wire Line
-	1950 2600 1450 2600
-Wire Wire Line
-	14450 9050 14900 9050
-Wire Wire Line
-	14450 8850 14900 8850
-Wire Wire Line
-	14450 8250 14900 8250
-Wire Wire Line
-	13900 8050 14150 8050
-Connection ~ 3550 4600
-Wire Wire Line
-	2750 4600 2750 4400
-Wire Wire Line
-	2750 4600 5500 4600
-Wire Wire Line
-	1650 1850 1650 1600
-Wire Wire Line
-	1650 1600 1450 1600
-Wire Wire Line
 	14900 3850 14450 3850
 Wire Wire Line
 	14900 3950 14450 3950
@@ -138,19 +90,6 @@ Wire Wire Line
 	14900 4350 14450 4350
 Wire Wire Line
 	14900 4250 14450 4250
-Wire Wire Line
-	3550 4600 3550 4450
-Connection ~ 4900 4600
-Wire Wire Line
-	4900 4400 4900 4600
-Wire Wire Line
-	4900 4000 4900 4150
-Connection ~ 4150 4000
-Wire Wire Line
-	2200 4000 3100 4000
-Wire Wire Line
-	4150 4600 4150 4400
-Connection ~ 4150 4600
 Wire Wire Line
 	13100 6700 12750 6700
 Wire Wire Line
@@ -179,8 +118,6 @@ Wire Wire Line
 	14900 5000 14450 5000
 Wire Wire Line
 	14450 5600 14900 5600
-Wire Wire Line
-	14450 4900 14900 4900
 Wire Wire Line
 	14450 5100 14900 5100
 Wire Wire Line
@@ -228,8 +165,6 @@ Wire Wire Line
 	14450 1250 14900 1250
 Wire Wire Line
 	14450 1350 14900 1350
-Wire Wire Line
-	14450 1150 14900 1150
 Wire Wire Line
 	14450 1050 14900 1050
 Wire Wire Line
@@ -280,7 +215,7 @@ Wire Wire Line
 Wire Wire Line
 	6100 2450 7000 2450
 Wire Wire Line
-	2450 2300 3050 2300
+	1850 3500 2450 3500
 Wire Wire Line
 	1650 6800 2050 6800
 Connection ~ 1650 6800
@@ -293,7 +228,7 @@ Wire Wire Line
 Wire Wire Line
 	2050 7750 1550 7750
 Wire Wire Line
-	2450 2400 3050 2400
+	1850 3600 2450 3600
 Wire Wire Line
 	14450 7400 14900 7400
 Wire Wire Line
@@ -339,12 +274,10 @@ Wire Wire Line
 Wire Wire Line
 	14900 1550 14450 1550
 Wire Wire Line
-	1450 1500 1850 1500
-Wire Wire Line
 	6700 2950 6575 2950
 Connection ~ 6700 2950
 Wire Wire Line
-	4700 2400 5150 2400
+	4100 3600 4550 3600
 Wire Wire Line
 	10650 3050 11050 3050
 Connection ~ 10750 3050
@@ -366,13 +299,10 @@ Wire Wire Line
 Wire Wire Line
 	12300 6800 13100 6800
 Wire Wire Line
-	4000 4000 5500 4000
-Connection ~ 4900 4000
+	2350 3150 2350 3500
+Connection ~ 2350 3500
 Wire Wire Line
-	2950 1950 2950 2300
-Connection ~ 2950 2300
-Wire Wire Line
-	2950 1250 2950 1700
+	2350 2450 2350 2900
 Wire Wire Line
 	14900 6500 14450 6500
 Wire Wire Line
@@ -389,98 +319,12 @@ Wire Wire Line
 	14900 6200 14450 6200
 Wire Wire Line
 	14450 6400 14900 6400
-Connection ~ 2750 4000
 Wire Wire Line
-	14450 7750 14900 7750
-Wire Wire Line
-	14450 7850 14900 7850
-Wire Wire Line
-	13200 8050 13650 8050
-Wire Wire Line
-	13900 7950 14900 7950
-Wire Wire Line
-	14450 8050 14900 8050
-Wire Wire Line
-	14450 8750 14900 8750
-Wire Wire Line
-	14450 8950 14900 8950
-Wire Wire Line
-	14450 8150 14900 8150
-Wire Wire Line
-	1950 2400 1450 2400
-Wire Wire Line
-	4700 2300 5150 2300
-Wire Wire Line
-	1950 2500 1450 2500
-Wire Wire Line
-	2750 3400 2750 4150
-Wire Wire Line
-	2750 3400 3400 3400
+	4100 3500 4550 3500
 Wire Wire Line
 	8900 4600 8900 4350
-Wire Wire Line
-	14050 9550 14050 9650
-Wire Wire Line
-	14050 9650 14850 9650
-Wire Wire Line
-	14050 9250 14900 9250
-Wire Wire Line
-	14450 9150 14900 9150
-Wire Wire Line
-	13550 9450 13850 9450
-$Comp
-L RESISTOR R5
-U 1 1 4E60FE76
-P 13300 9450
-F 0 "R5" H 13300 9550 71  0000 C CNN
-F 1 "1к" H 13550 9550 71  0000 C CNN
-F 2 "" H 13300 9450 60  0001 C CNN
-F 3 "" H 13300 9450 60  0001 C CNN
-	1    13300 9450
-	1    0    0    -1  
-$EndComp
-Text Label 14450 9150 0    60   ~ 0
-MPU_VCC
-Text Notes 12400 9500 0    60   ~ 0
-LED
-$Comp
-L PIN_M_1 XP?
-U 1 1 4E5E31A9
-P 13050 9450
-AR Path="/4E2EC900" Ref="XP?"  Part="1" 
-AR Path="/4E2ECA5D" Ref="XP?"  Part="1" 
-AR Path="/4E5E31A9" Ref="XP39"  Part="1" 
-F 0 "XP39" H 13200 9550 50  0000 L BNN
-F 1 "~" H 13100 9550 50  0000 L BNN
-F 2 "~" H 13500 9600 50  0001 C CNN
-F 3 "" H 13050 9450 60  0001 C CNN
-	1    13050 9450
-	-1   0    0    -1  
-$EndComp
-$Comp
-L NPN VT1
-U 1 1 4E5E2697
-P 13850 9450
-F 0 "VT1" H 13950 9800 71  0000 C CNN
-F 1 "MMBT5551" H 13950 9700 71  0000 C CNN
-F 2 "" H 13850 9450 60  0001 C CNN
-F 3 "" H 13850 9450 60  0001 C CNN
-	1    13850 9450
-	1    0    0    -1  
-$EndComp
 Text Label 8900 4600 1    60   ~ 0
 GND
-$Comp
-L SHOTTKY_DIODE VD2
-U 1 1 4E302A1D
-P 3700 3400
-F 0 "VD2" H 3900 3650 71  0000 C CNN
-F 1 "SS14" H 3875 3525 71  0000 C CNN
-F 2 "" H 3700 3400 60  0001 C CNN
-F 3 "" H 3700 3400 60  0001 C CNN
-	1    3700 3400
-	-1   0    0    -1  
-$EndComp
 $Comp
 L PIN_M_1 XP?
 U 1 1 4E2ED6D1
@@ -878,70 +722,6 @@ F 3 "" H 13450 1950 60  0001 C CNN
 	1    13450 1950
 	1    0    0    -1  
 $EndComp
-Text Label 1688 2400 0    60   ~ 0
-VCCIN
-$Comp
-L SHOTTKY_DIODE VD1
-U 1 1 4E20581A
-P 2400 1200
-F 0 "VD1" V 2600 1400 71  0000 C CNN
-F 1 "SS14" V 2500 1400 71  0000 C CNN
-F 2 "" H 2400 1200 60  0001 C CNN
-F 3 "" H 2400 1200 60  0001 C CNN
-	1    2400 1200
-	0    -1   -1   0   
-$EndComp
-Text Label 2400 600  3    60   ~ 0
-VCCIN
-Text Label 1600 2600 0    60   ~ 0
-VCCUSB
-Text Label 1542 2500 0    60   ~ 0
-MPU_VCC
-$Comp
-L PIN_M_3 XP5
-U 1 1 4E2EBDDC
-P 1450 2400
-F 0 "XP5" H 1600 2600 50  0000 L BNN
-F 1 "PLS-3" H 1500 2500 50  0000 L BNN
-F 2 "~" H 1900 2550 50  0001 C CNN
-F 3 "" H 1450 2400 60  0001 C CNN
-	1    1450 2400
-	-1   0    0    -1  
-$EndComp
-Text Label 1650 1850 1    60   ~ 0
-GND
-Text Notes 15350 9300 0    60   ~ 0
-LEDK
-Text Notes 15350 9200 0    60   ~ 0
-LEDA
-Text Notes 15350 9100 0    60   ~ 0
-DB7
-Text Notes 15350 9000 0    60   ~ 0
-DB6
-Text Notes 15350 8900 0    60   ~ 0
-DB5
-Text Notes 15350 8800 0    60   ~ 0
-DB4
-Text Notes 15350 8700 0    60   ~ 0
-DB3
-Text Notes 15350 8600 0    60   ~ 0
-DB2
-Text Notes 15350 8500 0    60   ~ 0
-DB1
-Text Notes 15350 8400 0    60   ~ 0
-DB0
-Text Notes 15350 8300 0    60   ~ 0
-E
-Text Notes 15350 8200 0    60   ~ 0
-R/W
-Text Notes 15350 8100 0    60   ~ 0
-RS
-Text Notes 15350 8000 0    60   ~ 0
-VEE
-Text Notes 15350 7900 0    60   ~ 0
-VCC
-Text Notes 15350 7800 0    60   ~ 0
-GND
 Text Notes 15400 3900 0    60   ~ 0
 8
 Text Notes 15400 4000 0    60   ~ 0
@@ -1006,63 +786,6 @@ Text Notes 15400 4950 0    60   ~ 0
 RX<-0
 Text Notes 15400 5050 0    60   ~ 0
 TX->1
-Text Label 14450 8150 0    60   ~ 0
-GND
-Text Label 14450 8050 0    60   ~ 0
-SCK
-Text Label 14450 8750 0    60   ~ 0
-MOSI
-Text Label 14450 8850 0    60   ~ 0
-SS
-Text Label 14450 8950 0    60   ~ 0
-PB0
-Text Label 14450 9050 0    60   ~ 0
-PB1
-Text Label 14450 8250 0    60   ~ 0
-MISO
-Text Label 14850 9650 2    60   ~ 0
-GND
-Text Label 14150 8050 2    60   ~ 0
-GND
-Text Label 13200 8050 0    60   ~ 0
-MPU_VCC
-$Comp
-L RESISTOR_TRIMMING R1
-U 1 1 4E282355
-P 13650 8050
-F 0 "R1" H 13800 8350 71  0000 C CNN
-F 1 "20к" H 13800 8250 71  0000 C CNN
-F 2 "" H 13650 8050 60  0001 C CNN
-F 3 "" H 13650 8050 60  0001 C CNN
-	1    13650 8050
-	1    0    0    -1  
-$EndComp
-Text Label 14450 7850 0    60   ~ 0
-MPU_VCC
-Text Label 14450 7750 0    60   ~ 0
-GND
-$Comp
-L PIN_M_16 XP4
-U 1 1 4E281B53
-P 14900 7750
-F 0 "XP4" H 15050 7950 50  0000 L BNN
-F 1 "IDC-16MS" H 14950 7850 50  0000 L BNN
-F 2 "~" H 15350 7900 50  0001 C CNN
-F 3 "" H 14900 7750 60  0001 C CNN
-	1    14900 7750
-	1    0    0    -1  
-$EndComp
-$Comp
-L CAPITORS_ELECTROLYTIC C7
-U 1 1 4E26C0B6
-P 2750 4150
-F 0 "C7" V 2900 3800 71  0000 C CNN
-F 1 "47мк 10В" V 3000 3800 71  0000 C CNN
-F 2 "" H 2750 4150 60  0001 C CNN
-F 3 "" H 2750 4150 60  0001 C CNN
-	1    2750 4150
-	0    -1   1    0   
-$EndComp
 Text Label 14450 6600 0    60   ~ 0
 PD7
 Text Label 14450 6500 0    60   ~ 0
@@ -1093,17 +816,17 @@ Text Label 14450 6000 0    60   ~ 0
 TXD
 Text Label 14450 5900 0    60   ~ 0
 RXD
-Text Label 2950 1250 3    60   ~ 0
+Text Label 2350 2450 3    60   ~ 0
 GND_USB
 $Comp
 L CAPITORS_ELECTROLYTIC C6
 U 1 1 4E244B05
-P 2950 1950
-F 0 "C6" H 3050 1600 71  0000 C CNN
-F 1 "100мк 10В" H 3050 1750 71  0000 C CNN
-F 2 "" H 2950 1950 60  0001 C CNN
-F 3 "" H 2950 1950 60  0001 C CNN
-	1    2950 1950
+P 2350 3150
+F 0 "C6" H 2450 2800 71  0000 C CNN
+F 1 "100мк 10В" H 2450 2950 71  0000 C CNN
+F 2 "" H 2350 3150 60  0001 C CNN
+F 3 "" H 2350 3150 60  0001 C CNN
+	1    2350 3150
 	0    1    -1   0   
 $EndComp
 $Comp
@@ -1135,43 +858,6 @@ Text Label 14450 4450 0    60   ~ 0
 GND
 Text Label 14450 4550 0    60   ~ 0
 AREF
-Text Label 2200 4000 0    60   ~ 0
-MPU_VCC
-$Comp
-L LM1117 DA3
-U 1 1 4E205FAE
-P 3300 3750
-F 0 "DA3" H 3550 3900 60  0000 C CNN
-F 1 "LM1117DTX-3.3" H 3550 3800 60  0000 C CNN
-F 2 "" H 3300 3750 60  0001 C CNN
-F 3 "" H 3300 3750 60  0001 C CNN
-	1    3300 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L CAPITORS C23
-U 1 1 4E205FAC
-P 4900 4150
-F 0 "C23" V 5050 4400 71  0000 C CNN
-F 1 "0.1мк" V 5150 4350 71  0000 C CNN
-F 2 "" H 4900 4150 60  0001 C CNN
-F 3 "" H 4900 4150 60  0001 C CNN
-	1    4900 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L CAPITORS_ELECTROLYTIC C21
-U 1 1 4E205FAB
-P 4150 4150
-F 0 "C21" V 4300 3850 71  0000 C CNN
-F 1 "22мк 10В" V 4400 3800 71  0000 C CNN
-F 2 "" H 4150 4150 60  0001 C CNN
-F 3 "" H 4150 4150 60  0001 C CNN
-	1    4150 4150
-	0    -1   1    0   
-$EndComp
-Text Label 5500 4600 2    60   ~ 0
-GND
 Text Label 12150 2550 2    60   ~ 0
 MPU_VCC
 Text Label 12650 2450 2    60   ~ 0
@@ -1217,9 +903,9 @@ F 3 "" H 6325 2950 60  0001 C CNN
 	1    6325 2950
 	1    0    0    -1  
 $EndComp
-Text Label 14450 4900 0    60   ~ 0
+Text Label 1800 1600 0    60   ~ 0
 RXD
-Text Label 14450 5000 0    60   ~ 0
+Text Label 1800 2100 0    60   ~ 0
 TXD
 $Comp
 L PIN_F_8 XS?
@@ -1283,21 +969,10 @@ Text Label 14450 2350 0    60   ~ 0
 A4
 Text Label 14450 2450 0    60   ~ 0
 A5
-Text Label 5150 2300 2    60   ~ 0
-VCCUSB
+Text Label 4550 3500 2    60   ~ 0
+MPU_VCC
 Text Label 14450 1550 0    60   ~ 0
 VCCIN
-$Comp
-L PIN_M_2 XP3
-U 1 1 4E1EF82E
-P 1450 1500
-F 0 "XP3" H 1600 1700 50  0000 L BNN
-F 1 "DG126-5.0-02P-14" H 1350 1600 50  0000 L BNN
-F 2 "~" H 1900 1650 50  0001 C CNN
-F 3 "" H 1450 1500 60  0001 C CNN
-	1    1450 1500
-	-1   0    0    -1  
-$EndComp
 Text Label 11250 1650 2    60   ~ 0
 A5
 Text Label 11250 1550 2    60   ~ 0
@@ -1360,10 +1035,6 @@ Text Label 14450 1350 0    60   ~ 0
 GND
 Text Label 14450 1250 0    60   ~ 0
 MPU_VCC
-Text Label 5500 4000 2    60   ~ 0
-VCC3V3
-Text Label 14450 1150 0    60   ~ 0
-VCC3V3
 Text Label 14450 1050 0    60   ~ 0
 RESET
 Text Label 11250 2250 2    60   ~ 0
@@ -1475,21 +1146,21 @@ Text Label 6100 2350 0    60   ~ 0
 MOSI
 Text Label 6100 2250 0    60   ~ 0
 SS
-Text Label 5150 2400 2    60   ~ 0
+Text Label 4550 3600 2    60   ~ 0
 GND
-Text Label 2450 2400 0    60   ~ 0
+Text Label 1850 3600 0    60   ~ 0
 GND_USB
-Text Label 2450 2300 0    60   ~ 0
+Text Label 1850 3500 0    60   ~ 0
 5V_USB
 $Comp
 L P10LU-0505ELF DA1
 U 1 1 4CE3F21D
-P 3350 2200
-F 0 "DA1" H 3850 2350 60  0000 C CNN
-F 1 "P10LU-0505ELF" H 3850 2250 60  0000 C CNN
-F 2 "" H 3350 2200 60  0001 C CNN
-F 3 "" H 3350 2200 60  0001 C CNN
-	1    3350 2200
+P 2750 3400
+F 0 "DA1" H 3250 3550 60  0000 C CNN
+F 1 "P10LU-0505ELF" H 3250 3450 60  0000 C CNN
+F 2 "" H 2750 3400 60  0001 C CNN
+F 3 "" H 2750 3400 60  0001 C CNN
+	1    2750 3400
 	1    0    0    -1  
 $EndComp
 Text Label 13100 6800 2    60   ~ 0
@@ -2119,23 +1790,6 @@ Connection ~ 13000 6000
 Text Label 3150 10450 1    60   ~ 0
 GND_USB
 $Comp
-L PROTECTOR FU2
-U 1 1 56CDAEE3
-P 1850 1500
-F 0 "FU2" H 1950 1650 60  0000 C CNN
-F 1 "MF-MSMF050" H 2000 1350 60  0000 C CNN
-F 2 "~" H 1850 1500 60  0000 C CNN
-F 3 "~" H 1850 1500 60  0000 C CNN
-	1    1850 1500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2100 1500 2400 1500
-Wire Wire Line
-	2400 1500 2400 1200
-Wire Wire Line
-	2400 900  2400 600 
-$Comp
 L PROTECTOR FU1
 U 1 1 56CDB6FF
 P 1650 7300
@@ -2161,4 +1815,88 @@ F 3 "~" H 11900 6450 60  0000 C CNN
 	1    11900 6450
 	0    -1   -1   0   
 $EndComp
+$Comp
+L MAX485_DIP_SO DD4
+U 1 1 570E5FDE
+P 2400 1500
+F 0 "DD4" H 3000 1675 60  0000 C CNN
+F 1 "MAX485_DIP_SO" H 3000 1575 60  0000 C CNN
+F 2 "~" H 2400 1500 60  0000 C CNN
+F 3 "~" H 2400 1500 60  0000 C CNN
+	1    2400 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L RESISTOR R?
+U 1 1 570E5FEB
+P 4200 1650
+F 0 "R?" V 4400 1850 71  0000 C CNN
+F 1 "120" V 4250 1850 71  0000 C CNN
+F 2 "" H 4200 1650 60  0001 C CNN
+F 3 "" H 4200 1650 60  0001 C CNN
+	1    4200 1650
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4000 1600 3900 1600
+Wire Wire Line
+	4000 1300 4000 1600
+Wire Wire Line
+	3900 1750 4900 1750
+Wire Wire Line
+	4200 1750 4200 1650
+Wire Wire Line
+	4000 1300 4900 1300
+Wire Wire Line
+	4200 1300 4200 1400
+Connection ~ 4200 1300
+Connection ~ 4200 1750
+Text Label 4900 1300 2    60   ~ 0
+RS485A
+Text Label 4900 1750 2    60   ~ 0
+RS485B
+Wire Wire Line
+	1800 1600 2100 1600
+Wire Wire Line
+	1800 2100 2100 2100
+Text Label 1800 1750 0    60   ~ 0
+GND
+Wire Wire Line
+	1800 1750 2100 1750
+Text Label 1800 1950 0    60   ~ 0
+A5
+Wire Wire Line
+	1800 1950 2100 1950
+$Comp
+L CAPITORS C?
+U 1 1 570E7593
+P 4350 2300
+F 0 "C?" V 4550 2050 71  0000 C CNN
+F 1 "0.1мк" V 4450 2050 71  0000 C CNN
+F 2 "" H 4350 2300 60  0001 C CNN
+F 3 "" H 4350 2300 60  0001 C CNN
+	1    4350 2300
+	0    -1   -1   0   
+$EndComp
+Text Label 4900 1950 2    60   ~ 0
+MPU_VCC
+Wire Wire Line
+	3900 1950 4900 1950
+Text Label 4200 2100 2    60   ~ 0
+GND
+Wire Wire Line
+	3900 2100 4200 2100
+Text Label 4350 2550 1    60   ~ 0
+GND
+Wire Wire Line
+	4350 2550 4350 2300
+Wire Wire Line
+	4350 2050 4350 1950
+Connection ~ 4350 1950
+Text Label 14450 4900 0    60   ~ 0
+RXD
+Text Label 14450 5000 0    60   ~ 0
+TXD
+Wire Wire Line
+	14900 4900 14450 4900
 $EndSCHEMATC
